@@ -170,12 +170,12 @@ if ($role === 'employee') {
 <header>
     <h1>Historia godzin pracy</h1>
     <nav>
-        <a href="dashboard.php">🏠 Dashboard</a>
+        <a href="dashboard.php">Dashboard</a>
         <a href="work_hours.php">Godziny pracy</a>
         <?php if ($role === 'moderator' || $role === 'admin'): ?>
             <a href="users.php">Zarządzaj użytkownikami</a>
         <?php endif; ?>
-        <a href="logout.php">🚪 Wyloguj</a>
+        <a href="logout.php">Wyloguj</a>
     </nav>
 </header>
 

@@ -170,11 +170,11 @@ $hoursResult = ($role === 'employee')
 <header>
     <h2>Godziny pracy</h2>
     <nav>
-        <a href="dashboard.php">🏠 Panel</a>
+        <a href="dashboard.php">Panel</a>
         <?php if ($role !== 'employee'): ?>
-            <a href="users.php">👥 Użytkownicy</a>
+            <a href="users.php">Użytkownicy</a>
         <?php endif; ?>
-        <a href="logout.php">🚪 Wyloguj</a>
+        <a href="logout.php">Wyloguj</a>
     </nav>
 </header>
 

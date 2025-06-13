@@ -80,7 +80,7 @@ $role = $_SESSION['role'] ?? 'employee';
     <nav>
         <a href="dashboard.php">Dashboard</a>
         <a href="work_hours.php">Godziny pracy</a>
-        <a href="history.php">📅 Historia</a>
+        <a href="history.php">Historia</a>
         <?php if ($role === 'moderator' || $role === 'admin'): ?>
             <a href="users.php">Zarządzaj użytkownikami</a>
         <?php endif; ?>
@@ -95,7 +95,7 @@ $role = $_SESSION['role'] ?? 'employee';
         <p>Jesteś zalogowany jako <strong>pracownik</strong>. Możesz przeglądać swoje godziny pracy i dodawać komentarze.</p>
         <ul class="options">
             <li><a href="work_hours.php">Przeglądaj godziny pracy</a></li>
-            <li><a href="history.php">📅 Historia przepracowanych dni</a></li>
+            <li><a href="history.php">Historia przepracowanych dni</a></li>
         </ul>
 
     <?php elseif ($role === 'moderator'): ?>
@@ -110,7 +110,7 @@ $role = $_SESSION['role'] ?? 'employee';
         <p>Jesteś zalogowany jako <strong>administrator</strong>. Masz pełny dostęp do zarządzania aplikacją.</p>
         <ul class="options">
             <li><a href="work_hours.php">Zarządzaj godzinami pracy</a></li>
-            <li><a href="history.php">📅 Historia przepracowanych dni</a></li>
+            <li><a href="history.php">Historia przepracowanych dni</a></li>
             <li><a href="users.php">Zarządzaj użytkownikami</a></li>
             <li><a href="settings.php">Ustawienia systemu</a></li>
         </ul>
